@@ -1,0 +1,28 @@
+:root{
+    --white: #ffffff;
+    --gray-300: #d1d5db;
+    --gray-400: #9ca3af;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+
+    --blue-400: #60a5fa;
+    --blue-600: #2563eb;
+    --blue-800: #1e40af;
+
+    --green-500: #10b981;
+    --green-800: #065f46;
+}
+.body{
+    background: var(--gray-800);
+    color: var(--gray-400);
+    color: var(--gray-400);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Roboto Mono', sans-serif;
+}
+.all{
+    background: var(--gray-800);
+}

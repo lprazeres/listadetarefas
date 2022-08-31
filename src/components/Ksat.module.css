@@ -1,0 +1,32 @@
+.tasksArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+    color: var(--white);
+    font-weight: bold;
+    margin-bottom: 1.56rem;
+}
+.taskStyle{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background: var(--gray-500);
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+}
+.buttonCheckBox{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.buttonTrash:hover, .buttonCheckBox:hover{
+    cursor: pointer;
+    background: var(--blue-400);
+}
+.taskCompleted{
+    color: red;
+    text-decoration: line-through;
+}
+

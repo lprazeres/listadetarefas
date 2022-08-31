@@ -1,0 +1,48 @@
+.mainArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.formArea{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.inputTasks{
+    background: var(--gray-500);
+    height: 4rem;
+    width: 25rem;
+    text-align: center;
+    color: var(--gray-900);
+    font-weight: bold;
+    border: none;
+    border-radius: 1.5rem;
+}
+.inputTasks:hover{
+    background: var(--blue-600);
+}
+.countTask{
+    display: flex;
+    align-items: center;
+    gap: 25rem;
+    color: var(--blue-400);
+}
+.countTask span{
+    background: var(--gray-500);
+    color: var(--white);
+    padding: 0.2rem;
+    border-radius: 0.90rem;
+}
+.noTasksArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.firstMessage{
+    font-weight: bold;
+}
